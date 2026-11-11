@@ -1,0 +1,229 @@
+
+/* GLOBAL */
+body {
+    background-color: #f4f6fc;
+    color: #151b35;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: #1d2340;
+    min-height: 58px;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #d8d9e8;
+    padding: 10px 15px !important;
+    border-radius: 8px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: #393b68;
+    color: white;
+}
+
+.nav-icon {
+    color: #e1e3f0;
+    font-size: 1.4rem;
+}
+
+/* SIDEBAR */
+.filter-sidebar {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e5e7f0;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03);
+}
+
+.filter-sidebar hr {
+    border-color: #e4e6ee;
+    margin: 18px 0;
+}
+
+.form-check-input:checked {
+    background-color: #6545e8;
+    border-color: #6545e8;
+}
+
+.form-select,
+.form-control,
+.input-group-text {
+    border-color: #d5d8e5;
+    border-radius: 8px;
+}
+
+.input-group-text {
+    background-color: white;
+}
+
+/* PAGE HEADER */
+.page-title {
+    font-size: 1.6rem;
+    color: #151b35;
+}
+
+/* BUTTONS */
+.custom-button {
+    background-color: #6545e8;
+    border-color: #6545e8;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.custom-button:hover {
+    background-color: #5034cb;
+}
+
+.btn-details {
+    background-color: #eeeaff;
+    color: #5535db;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-details:hover {
+    background-color: #ddd5ff;
+    color: #4023bb;
+}
+
+/* EXCHANGE CARDS */
+.exchange-card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #e3e5ee;
+    border-radius: 13px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.exchange-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* STATUS */
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.status-success {
+    background-color: #dcfce2;
+    color: #168337;
+}
+
+.status-warning {
+    background-color: #fff3cd;
+    color: #a56b00;
+}
+
+/* ITEMS */
+.item-image {
+    width: 80px;
+    height: 105px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: #eef0f6;
+}
+
+.item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-info {
+    min-width: 0;
+}
+
+.item-info h6 {
+    font-size: 0.9rem;
+}
+
+.item-info small {
+    display: block;
+    font-size: 0.75rem;
+}
+
+.category-badge {
+    display: inline-block;
+    background-color: #eeeaff;
+    color: #5938df;
+    border-radius: 6px;
+    padding: 4px 7px;
+    margin-top: 7px;
+    font-size: 0.7rem;
+}
+
+.exchange-icon {
+    font-size: 1.4rem;
+    color: #303957;
+}
+
+/* USER */
+.user-avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #e5e7eb;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* RESPONSIVE */
+@media (max-width: 575px) {
+
+    .page-title {
+        font-size: 1.3rem;
+    }
+
+    .exchange-card {
+        padding: 12px;
+    }
+
+    .item-image {
+        width: 55px;
+        height: 80px;
+    }
+
+    .item-info h6 {
+        font-size: 0.75rem;
+    }
+
+    .item-info small {
+        font-size: 0.65rem;
+    }
+
+    .exchange-icon {
+        font-size: 1.1rem;
+    }
+
+    .category-badge {
+        font-size: 0.6rem;
+        padding: 3px 5px;
+    }
+
+    .btn-details {
+        font-size: 0.8rem;
+    }
+}
